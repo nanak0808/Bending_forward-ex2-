@@ -7,6 +7,7 @@
 ## 実装方法メモ
 ### 手の表示位置を変化させた方法
 （ロジックは論文記載）
+
 ※ver.2022.3.5.0f1では、OVR管理下の取得した手の座標をスクリプトで上書きできたため、以下の方法で実装
 
 - ```OVRCameraRig > TrackingSpace > Left(Right)HandAnchor > OVRLeft(Right)HandSynthetic > OVRLeft(Right)HandVisual```に
